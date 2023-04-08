@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="shortcut icon" href="img/imag1.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>   
+</head>
+<body>
+    <div class="CifrNoml">
+        <a href="IndexCifrCear.html" class="btn-CfrCar">Cifrador Cesar</a>
+    </div>
+    <h1 class="titulo1">Cifrador Normal</h1>
+    <div class="container">
+        <div class="encriptar">
+            <textarea value="asdasdasd" name="texto" class="texto" id="texto" cols="30" rows="10" placeholder="Ingresa el texto aquí:"></textarea>
+        </div>
+        <div class="terminos">
+            <p>Solo letras minusculas y sin acentos.</p>
+        </div>
+        <div class="botones">
+            <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
+            <input type="button" class="btn-desencriptar" value="Desencriptar" onclick="desencriptar()">
+        </div>
+    </div>
+        <div class="encriptado">
+            <img src="img/imag2.png" alt="" id="muñeco">
+            <div class="mensaje-encriptado" id="mensaje-encriptado">
+                <h2 id="titulo-mensaje" >Ningun Mensaje fue encontrado</h2>
+                <p id="parrafo">Ingresa el mensaje que deseas encriptar o desencriptar</p>
+                <textarea name="mensaje" class="mensaje" id="mensaje" cols="30" rows="10" placeholder=""></textarea>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="src/Index.js"></script>
+</html>
