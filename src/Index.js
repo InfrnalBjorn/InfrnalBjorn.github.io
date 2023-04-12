@@ -31,7 +31,7 @@ function desencriptar() {
     let muñeco = document.getElementById("muñeco");
 
     let textoCifrado = texto
-        .replace(/enter/gi, "e")
+        .replace(/eneter/gi, "e")
         .replace(/imes/gi, "i")
         .replace(/ai/gi, "a")
         .replace(/ober/gi, "o")
